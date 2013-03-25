@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>Course Finder</title>
+</head>
+<body>
+	<div style="float:left">
+	<h2>Select Requirement:</h2>
+	<form>
+		<select name="reqID">
+			<option value="1">Cultural Diversity Requirement</option>
+			<option value="2">Environmental Literacy Requirement</option>
+			<option value="3">Core Curriculum I: Foundation Courses</option>
+			<option value="4">Core Curriculum II: Physical Sciences</option>
+			<option value="5">Core Curriculum II: Life Sciences</option>
+			<option value="6">Core Curriculum III: Quantitative Reasoning</option>
+			<option value="7">Core Curriculum IV: World Languages and Culture</option>
+			<option value="8">Core Curriculum IV: Humanities and Arts</option>
+			<option value="9">Core Curriculum V: Social Sciences</option>
+			<option value="10">Franklin College Foreign Language</option>
+			<option value="11">Franklin College Literature</option>
+			<option value="12">Franklin College Fine Arts/Philosophy/Religion</option>
+			<option value="13">Franlin College History</option>
+			<option value="14">Franklin CollegeSocial Sciences other than History</option>
+			<option value="15">Franklin College Biological Sciences</option>
+			<option value="16">Franklin College:Physical Sciences</option>
+			<option value="17">Franklin College Multicultural Requirement</option>
+			<option value="18">Core CurriculumVI: Major related courses</option>
+			<option value="19">Computer Science Major Courses</option>
+		</select>
+		<input type="submit" value="Search"/>
+	</form>
+	<br>
+	<h2>Classes to fulfill the requirement:</h2>
+	<table border="1">
+		<form>
+			<tr><th>Department</th><th>Number</th><th>Time</th><th>Days</th><th>Add to Schedule</th></tr>
+			<tr><td>CSCI</td><td>4300</td><td>10:10-11:00</td><td>MWF</td><td><input type="submit" value="Add"></td>
+			<tr><td>CSCI</td><td>4320</td><td>11:15-12:05</td><td>MWF</td><td><input type="submit" value="Add"></td>
+			<tr><td>CSCI</td><td>4500</td><td>2:00-3:15</td><td>TR</td><td><input type="submit" value="Add"></td>
+		</form>
+	</table>
+	</div>
+	<div style="float:right">
+	<h2>Schedule View</h2>
+	<table>
+		<tr><th>Time</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th></tr>
+		<tr><th>8:00am</th></tr>
+		<tr><th>9:00</th></tr>
+		<tr><th>10:00</th><td>CSCI 4300</td><td></td><td>CSCI 4300</td><td></td><td>CSCI 4300</td></tr>
+		<tr><th>11:00</th><td>CSCI 4320</td><td></td><td>CSCI 4320</td><td></td><td>CSCI 4320</td></tr>
+		<tr><th>12:00pm</th></tr>
+		<tr><th>1:00</th></tr>
+		<tr><th>2:00</th><td></td><td>CSCI 4500</td><td></td><td>CSCI 4500</td><td></td></tr>
+		<tr><th>3:00</th></tr>
+		<tr><th>4:00</th></tr>
+		<tr><th>5:00</th></tr>
+		<tr><th>6:00</th></tr>
+		<tr><th>7:00</th></tr>
+		<tr><th>8:00</th></tr>
+	</table>
+	<h2>Current Classes</h2>
+	<table border="1">
+		<form>
+			<tr><th>Department</th><th>Number</th><th>Time</th><th>Days</th><th>Remove from Schedule</th></tr>
+			<tr><td>CSCI</td><td>4300</td><td>10:10-11:00</td><td>MWF</td><td><input type="submit" value="Remove"></td>
+			<tr><td>CSCI</td><td>4320</td><td>11:15-12:05</td><td>MWF</td><td><input type="submit" value="Remove"></td>
+			<tr><td>CSCI</td><td>4500</td><td>2:00-3:15</td><td>TR</td><td><input type="submit" value="Remove"></td>
+		</form>
+	</table>
+	
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
